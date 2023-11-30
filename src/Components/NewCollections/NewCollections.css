@@ -1,0 +1,32 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: white; 
+    margin-bottom: 100px;/* Replace these colors with your desired gradient */
+}
+.new-collections h1{
+    color: darkslategrey;
+    font-size: 50px;
+    font-weight: 300;
+    /* align-self: flex-start; */
+    /* margin-left: 10; */
+}
+.new-collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+.new-collections p{
+    font-family: 'Crimson Text', serif;
+    color: black;
+    font-size: 20px;
+}

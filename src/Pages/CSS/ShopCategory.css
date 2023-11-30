@@ -1,0 +1,19 @@
+.shopcategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    background: white; /* Replace these colors with your desired gradient */
+}
+
+
+.shopcategory-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 130px;
+     margin-top: 70px;
+     margin-bottom: 70px;
+    gap: 10px;
+    row-gap: 70px;
+}

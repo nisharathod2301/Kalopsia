@@ -1,0 +1,31 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    background: white; /* Replace these colors with your desired gradient */
+}
+.popular h1{
+    color: darkslategrey;
+    font-size: 50px;
+    font-weight: 300;
+    /* align-self: flex-start; */
+    /* margin-left: 10; */
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.popular p{
+    font-family: 'Crimson Text', serif;
+    color: black;
+    font-size: 20px;
+}
